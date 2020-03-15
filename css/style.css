@@ -14,10 +14,12 @@
     transform: scale(0.98); }
 
 .btn-primary {
-  background-color: #418bff; }
+  background-color: #418bff;
+  color: #fff; }
 
 .btn-secondary {
-  background-color: #ff8700; }
+  background-color: #ff8700;
+  color: #fff; }
 
 * {
   box-sizing: border-box;
@@ -51,7 +53,7 @@ a {
   .showcase a {
     color: #fff; }
     .showcase a:hover {
-      color: #ff8700; }
+      color: #fff; }
   .showcase-content {
     height: 100%;
     display: flex;
