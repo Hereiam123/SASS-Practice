@@ -4,6 +4,21 @@
   margin: 0 auto;
   overflow: auto; }
 
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+  cursor: pointer; }
+  .btn-primary:hover, .btn-secondary:hover {
+    transform: scale(0.98); }
+
+.btn-primary {
+  background-color: #0e6cff; }
+
+.btn-secondary {
+  background-color: #ff8700; }
+
 * {
   box-sizing: border-box;
   margin: 0;
