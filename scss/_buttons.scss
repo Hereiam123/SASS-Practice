@@ -15,5 +15,5 @@
 }
 .btn-secondary {
   @extend %btn;
-  background-color: darken($primary-color, 10%);
+  background-color: $secondary-color;
 }
